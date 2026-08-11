@@ -1,0 +1,7 @@
+// Last updated: 8/11/2026, 2:15:38 PM
+class Solution {
+    public int findDelayedArrivalTime(int arrivalTime, int delayedTime) {
+      int sum=arrivalTime+delayedTime;
+      return (sum<24)?sum:sum-24;  
+    }
+}
